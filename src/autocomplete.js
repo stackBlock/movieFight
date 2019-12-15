@@ -29,7 +29,7 @@ const createAutoComplete = ({
 
     resultsWrapper.innerHTML = "";
     dropdown.classList.add("is-active");
-    console.log(event.target.value); // equals 'args[0].target.value' - ^^^^ ABOVE ^^^^ -
+    console.log(event.target.value);
 
     for (let item of items) {
       const option = document.createElement("a");

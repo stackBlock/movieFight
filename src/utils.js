@@ -6,7 +6,7 @@ const deBounce = (func, delay = 1500) => {
         }
         timeoutId = setTimeout(() => {
             func.apply(null, args);
-            console.log(args[0].target.value); // equals 'event.target.value' - vvvv BELOW vvvv -
+            console.log(args[0].target.value); 
         }, delay);
     };
 };
